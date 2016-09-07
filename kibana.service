@@ -1,0 +1,17 @@
+[Unit]
+Description=Kibana4 ElasticSearch GUI
+Requires=network.target
+After=network.target
+
+[Service]
+Type=simple
+PIDFile=/var/run/kibana.pid
+EnvironmentFile=/etc/sysconfig/kibana
+User=kibana
+WorkingDirectory=/usr/share/kibana
+ExecStart=/usr/bin/node /usr/share/kibana/src/cli
+StandardOutput=null
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
