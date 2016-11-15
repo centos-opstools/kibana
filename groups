@@ -1,5 +1,5 @@
-# UUID          Group Name
-False 	Non-Interactive Users
-d4d1bfff08e53be7d6e3b98fb590d81e9f2c4fe4       	centos-opstools/kibana-core
-fe28bd6dc20210915b96a3c871202c4cf7eb159f        	centos-opstools/kibana-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+757c85abcd9ba70f7b7b0fd5a0a43e7506f820c5	centos-opstools/ptl
+b60725751ff1c8f5f13106753f5233e2ea34f818	centos-opstools/core
+global:Registered-Users                 	Registered Users
